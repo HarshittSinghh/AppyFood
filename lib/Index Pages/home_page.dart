@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_app/Detail%20Page/biriyani_page.dart';
 import 'package:food_app/Detail%20Page/laska_page.dart';
 import 'package:food_app/Detail%20Page/pizza_page.dart';
+import 'package:food_app/Menu%20Page/categories.dart';
 import 'package:food_app/drawer.dart';
 import 'package:food_app/Index Pages/cart_page.dart';
 import 'package:food_app/Index%20Pages/dining_page.dart';
@@ -517,7 +518,10 @@ class HomeContent extends StatelessWidget {
           bottom: 20,
           right: 20,
           child: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MealListScreen()));
+            },
             backgroundColor: Colors.transparent,
             child: Container(
               width: 60,

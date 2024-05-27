@@ -29,7 +29,7 @@ class CartPage extends StatelessWidget {
             SizedBox(height: 20),
             Expanded(
               child: ListView.builder(
-                itemCount: 3, // Assuming 3 items in the cart
+                itemCount: 3,
                 itemBuilder: (context, index) {
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 16.0),
@@ -63,7 +63,8 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  'Item Name $index',
+                                  _getFoodName(
+                                      index), // Getting food names based on index
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 18,
@@ -132,4 +133,21 @@ class CartPage extends StatelessWidget {
       ),
     );
   }
+
+  String _getFoodName(int index) {
+    switch (index) {
+      case 0:
+        return 'Burger';
+      case 1:
+        return 'Pizza';
+      case 2:
+        return 'Salad';
+      default:
+        return 'Food Item';
+    }
+  }
+}
+
+void main() {
+  runApp(MaterialApp(home: CartPage()));
 }
