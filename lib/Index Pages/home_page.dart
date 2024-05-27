@@ -3,7 +3,7 @@ import 'package:food_app/Detail%20Page/biriyani_page.dart';
 import 'package:food_app/Detail%20Page/laska_page.dart';
 import 'package:food_app/Detail%20Page/pizza_page.dart';
 import 'package:food_app/drawer.dart';
-import 'package:food_app/cart.dart';
+import 'package:food_app/Index Pages/cart_page.dart';
 import 'package:food_app/Index%20Pages/dining_page.dart';
 import 'package:food_app/Index%20Pages/wallet_page.dart';
 
@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         leading: Builder(
           builder: (context) => IconButton(
-            icon: Icon(
+            icon: const Icon(
               Icons.menu_rounded,
               color: Colors.deepPurple,
               size: 32.0,
@@ -46,9 +46,7 @@ class _HomePageState extends State<HomePage> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => CartPage(
-                    cartItems: [],
-                  ),
+                  builder: (context) => const CartPage(),
                 ),
               );
             },
@@ -277,6 +275,16 @@ class HomeContent extends StatelessWidget {
                                         ],
                                       ),
                                     ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                            SafeArea(
+                              child: Column(
+                                children: [
+                                  TextButton(
+                                    onPressed: () {},
+                                    child: Text('Add'),
                                   ),
                                 ],
                               ),
@@ -522,7 +530,7 @@ class HomeContent extends StatelessWidget {
                   end: Alignment.bottomRight,
                 ),
               ),
-              child: Icon(Icons.add, color: Colors.white),
+              child: const Icon(Icons.menu, color: Colors.white),
             ),
           ),
         ),

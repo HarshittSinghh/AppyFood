@@ -166,10 +166,11 @@ class BiriyaniDetailPage extends StatelessWidget {
               child: TextButton(
                 onPressed: () {
                   Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => LottieAnimationScreen(),
-                      ));
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => LottieAnimationScreen(),
+                    ),
+                  );
                 },
                 child: const Text(
                   'Add to Cart',
