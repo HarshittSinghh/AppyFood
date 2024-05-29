@@ -4,10 +4,6 @@ Welcome to AppyFood, your gateway to a delightful culinary experience powered by
 
 ## Exciting Update!
 
-
-
-
-
 We are thrilled to announce the near-completion of **AppyFood**! The app now boasts:
 - A sleek splash screen
 - Robust login system
@@ -47,5 +43,3 @@ To get started with the project, follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-Embark on your Flutter development adventure with AppyFood and create a seamless, engaging food app experience for all users.
