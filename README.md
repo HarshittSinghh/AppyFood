@@ -14,15 +14,6 @@ We are thrilled to announce the near-completion of **AppyFood**! The app now boa
 - Wallet integration for effortless payments
 - Restaurant reservation feature for hassle-free bookings
 
-## Getting Started
-
-Here are some valuable resources to help you get started with Flutter:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For comprehensive support and detailed information, visit the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, and a full API reference.
-
 ## Feedback and Suggestions
 
 We would love to hear your feedback and suggestions as we put the finishing touches on this project! Feel free to open an issue or submit a pull request.
@@ -33,7 +24,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/appyfood.git
+    git clone https://github.com/HarshittSinghh/appyfood.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -52,6 +43,5 @@ To get started with the project, follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
 Embark on your Flutter development adventure with AppyFood and create a seamless, engaging food app experience for all users.
