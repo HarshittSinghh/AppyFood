@@ -2,6 +2,8 @@
 
 Welcome to AppyFood, your gateway to a delightful culinary experience powered by Flutter. This project is the starting point for a robust and user-friendly food application designed to cater to all your gastronomic needs.
 
+https://github.com/HarshittSinghh/AppyFood/assets/163038346/16c0afec-ae81-45a3-806e-4230164a04a6
+
 ## Exciting Update!
 
 We are thrilled to announce the near-completion of **AppyFood**! The app now boasts:
